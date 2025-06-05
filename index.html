@@ -242,6 +242,32 @@
             background: rgba(255, 255, 255, 0.05);
             transition: all 0.3s ease;
         }
+
+        .credits {
+            margin-top: 4rem;
+            text-align: center;
+            padding: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            animation: fadeIn 2.5s ease-out 1.5s both;
+        }
+
+        .credits p {
+            font-size: 1rem;
+            color: #a1a1aa;
+            font-style: italic;
+        }
+
+        .mentor-name {
+            color: #4ecdc4;
+            font-weight: bold;
+            font-style: normal;
+            transition: color 0.3s ease;
+        }
+
+        .mentor-name:hover {
+            color: #00f5ff;
+            text-shadow: 0 0 10px rgba(0, 245, 255, 0.5);
+        }
     </style>
 </head>
 <body>
@@ -255,7 +281,6 @@
 
         <div class="video-container">
             <div class="video-wrapper">
-                <!-- Sostituisci VIDEO_ID con l'ID del tuo video YouTube -->
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/nah52iWM-S8?si=s343utjQtrUpIZMx&amp;clip=UgkxkNA5iynDao3atuVooY57ExkclmEvnlSt&amp;clipt=EPWMdBihsXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
@@ -276,6 +301,12 @@
                 Non da ore infinite, ma da <span class="highlight">intenzione chiara</span>.
             </p>
         </section>
+
+        <footer class="credits">
+            <p>Un ringraziamento speciale a <span class="mentor-name"><a href="https://www.youtube.com/@iacopopelagatti" target="_blank">Iacopo Pelagatti</a></span> per la sua preziosa mentorship</p>
+        </footer>
     </div>
 </body>
 </html>
+
+
